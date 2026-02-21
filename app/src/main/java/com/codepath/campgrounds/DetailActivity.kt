@@ -19,7 +19,6 @@ class DetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
 
-        // TODO: Find the remaining Views for the screen
         campgroundNameTV = findViewById(R.id.campgroundName)
         campgroundDescriptionTV = findViewById(R.id.campgroundDescription)
         campgroundLatLongTV = findViewById(R.id.campgroundLocation)
